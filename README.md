@@ -1,6 +1,8 @@
 # Collection
 API接口、各种资料
 
+## 资本资料
+https://support.huawei.com/hedex/hdx.do?docid=EDOC1100141041&lang=zh
 
 ## 任务分配(6-8)
 
