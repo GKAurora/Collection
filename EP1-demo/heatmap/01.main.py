@@ -24,7 +24,7 @@ def heart_map():
     token = response.json()['accessSession']
     print(token)
     # 拿到热力图
-    url = "https://117.78.31.209:26335/rest/campusrtlswebsite/v1/clientlocation/heatmap"
+    url = "/rest/campusrtlswebsite/v1/clientlocation/heatmap"
     headers = {
         "Content-Type": "application/json",
         "X-Auth-Token": token,
@@ -58,3 +58,8 @@ def heart_map():
 
 if __name__ == '__main__':
     app.run(host="127.0.0.1", port="8899", debug=True)
+
+
+
+
+f'''https://117.78.31.209:26335/rest/campuswlanqualityservice/v1/connectivity/connect-trend?accType=1&id=/&regionType=site&level=0&tenantId=default-organization-id&endTime=1624453461798&startTime=1623848661798&dateFrom=1623848661798&dateTo=1624453461798'''
