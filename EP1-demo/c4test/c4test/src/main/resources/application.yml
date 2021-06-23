@@ -1,0 +1,6 @@
+server:
+  port: 8080 # 服务访问端口号
+  undertow:
+    direct-buffers: true
+    io-threads: 8
+    worker-threads: 400
