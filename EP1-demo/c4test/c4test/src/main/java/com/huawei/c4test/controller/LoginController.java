@@ -27,8 +27,8 @@ public class LoginController {
 
         Map<String, String> map = new HashMap<>();
         map.put("grantType", "password");
-        map.put("userName", "");
-        map.put("value", "");
+        map.put("userName", "13727494636");
+        map.put("value", "farmer123!@#");
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.valueOf(MediaType.APPLICATION_JSON_VALUE));

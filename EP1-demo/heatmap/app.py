@@ -17,8 +17,8 @@ def heart_map():
     }
     data = {
         "grantType": "password",
-        "userName": "",
-        "value": ""
+        "userName": "13727494636",
+        "value": "farmer123!@#"
     }
     response = requests.put(url, headers=headers, data=json.dumps(data), verify=False)
     token = response.json()['accessSession']
